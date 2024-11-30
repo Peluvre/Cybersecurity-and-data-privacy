@@ -5,3 +5,4 @@
 13/11/2024 - 1h : Lab: Authentication & Access control
 17/11/2024 - 1h : Reflections on the labs
 19/11/2024 - 3h : Registration page phase 1 following the videos
+    -> Validation was added for the email and password (ex: the password must have more than 8 characters, the email must hav less than 50 characters, ...), it help prevent SQL injections
