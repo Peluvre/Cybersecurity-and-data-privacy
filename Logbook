@@ -11,5 +11,6 @@
 25/11/2024 - 2h : Lecture
 30/11/2024 - 1h : Registration page phase 2
 01/12/2024 - 1h : Registration page phase 2
+    -> Same errors as : https://github.com/Peluvre/Cybersecurity-and-data-privacy/blob/main/Registration_page_second_test.md
     -> Fixing CSP Header Not Set, Missing Anti-clickjacking Header and X-Content-Type-Options Header Missing errors by adding a Middleware in the app.js
     -> https://github.com/Peluvre/Cybersecurity-and-data-privacy/blob/main/Phase_2_alerts_fixed.md
