@@ -15,5 +15,7 @@
     -> Fixing CSP Header Not Set, Missing Anti-clickjacking Header and X-Content-Type-Options Header Missing errors by adding a Middleware in the app.js
     -> https://github.com/Peluvre/Cybersecurity-and-data-privacy/blob/main/Phase_2_alerts_fixed.md
 07/12/2024 - 1h : Debuging phase 3
-08/12/2024 - 30 min : ZAP Report
+08/12/2024 - 30 min : ZAP Report and Report Phase 3
     -> https://github.com/Peluvre/Cybersecurity-and-data-privacy/blob/main/Report_phase_3_alerts.md
+    -> https://github.com/Peluvre/Cybersecurity-and-data-privacy/blob/main/Report.md
+
