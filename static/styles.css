@@ -3,9 +3,10 @@ body {
     background-color: #f4f4f9;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: center; /* Center content for shorter pages */
+    min-height: 100vh; /* Allow taller pages to extend beyond the viewport */
     margin: 0;
+    padding: 20px;
 }
 
 .container {
@@ -47,11 +48,13 @@ select {
 input[type="text"],
 textarea,
 button {
-    width: 100%; /* Make all inputs, textarea, and button the same width */
+    width: 100%;
+    /* Make all inputs, textarea, and button the same width */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Ensures padding is included in the width */
+    box-sizing: border-box;
+    /* Ensures padding is included in the width */
 }
 
 button {
@@ -95,7 +98,8 @@ table {
     text-align: left;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ddd;
     padding: 8px;
 }
@@ -107,4 +111,28 @@ th {
 
 tr:nth-child(even) {
     background-color: #f9f9f9;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 5%;
+    margin-left: 25%;
+    margin-right: 10px;
+    /* Space between checkbox and label */
+}
+
+.checkbox-container label {
+    line-height: 1.5;
+    /* Adjust line height for better alignment */
 }
